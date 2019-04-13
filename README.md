@@ -11,3 +11,6 @@ Then run it!
 ```bash
 ./<name_that_you_like>
 ```
+
+# Licence
+[MIT](https://github.com/Kalter666/SuperPermaEntityRemover8000/blob/master/LICENSE)
