@@ -2,6 +2,23 @@
 #include <fstream>
 #include <iostream>
 
+class removeFile {
+ private:
+  std::ifstream filein;
+  std::ofstream fileout;
+  std::string filename;
+  std::string tmp;
+
+ public:
+  removeFile(std::string filename);
+  ~removeFile();
+};
+
+removeFile::removeFile(std::string filename)
+    : filename(filename), tmp(filename + ".tmp") {}
+
+removeFile::~removeFile() {}
+
 int main() {
   using namespace std;
 
